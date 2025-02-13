@@ -20,6 +20,7 @@ function Navbar() {
         <div className=" flex gap-10 items-center ">
 
           <p className="text-green-500">{session.user.name} </p>
+          <img src={session.user.image ?? "/default-image.png"} className=" rounded-full" width={50} alt="image" />
 
       
 
